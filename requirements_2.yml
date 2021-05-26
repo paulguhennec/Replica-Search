@@ -18,10 +18,4 @@ dependencies:
   - flask
   - requests
   - werkzeug==0.16.0
-  - pip:
-    - flask-caching==1.4.0
-    - flask-prometheus==0.0.1
-    - flask-restplus==0.11.0
-    - nmslib==1.7.3.2
-
 

@@ -175,7 +175,7 @@ class SearchResource(Resource):
     parser.add_argument('nb_results', type=int, default=100)
     parser.add_argument('index', type=str, location='json')
     parser.add_argument('filtered_uids', type=list, default=[], location='json')
-    parser.add_argument('rerank', type=bool, default=False, location='json')
+    parser.add_argument('rerank', type=bool, default=True, location='json')
 
     @api.expect(parser)
     def post(self):
